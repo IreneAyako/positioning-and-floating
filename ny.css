@@ -1,0 +1,140 @@
+body {
+  box-sizing: border-box;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+.header {
+  margin-top: -0.2%;
+}
+
+.nav button {
+  padding: 8px;
+  background: rgb(108, 108, 238);
+  margin: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  float: right;
+  margin-top: 0%;
+  height: 30px;
+}
+
+.nav {
+  display: block;
+  position: fixed;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 4%;
+  font-weight: bold;
+}
+
+.logo a img {
+  margin-left: 40%;
+  margin-top: -100%;
+}
+
+.ad {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.ad a img {
+  width: 1280px;
+}
+
+.ad button {
+  float: right;
+  background-color: rgb(150, 149, 149);
+  border: none;
+  margin: 1px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 80% 21%;
+  margin-left: 13%;
+  margin-top: 5%;
+}
+
+.main > div {
+  /*border: 1px solid black;*/
+  margin: 7px;
+  height: 8430px;
+}
+
+.main h1 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 18%;
+  font-size: 33px;
+}
+
+.main img {
+  height: 500px;
+  width: 912px;
+}
+
+.main p {
+  margin-right: 30%;
+  color: rgb(22, 22, 22);
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 13px;
+}
+
+.info {
+  margin-left: 20%;
+}
+
+.line {
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin-left: 28%;
+}
+
+.sub p {
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 20%;
+}
+
+.sub p a {
+  text-decoration: none;
+}
+
+.image {
+  height: 1000px;
+}
+
+.image .ln {
+  width: 72px;
+  border-top: 1px solid rgb(61, 61, 61);
+  margin-top: 5%;
+  margin-left: -23%;
+}
+
+.main button {
+  padding: 8px;
+  background: rgb(108, 108, 238);
+  margin: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  margin-top: 2%;
+  height: 40px;
+  margin-left: 1%;
+  width: 300px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  border-top: 1px solid black;
+}
